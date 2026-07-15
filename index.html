@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Devansh Mishra — Data Analyst & Machine Learning Enthusiast. Final-year B.Tech CSE student specializing in Python, SQL, Power BI, and end-to-end ML pipelines. Explore my projects, skills, and certifications.">
+    <meta name="keywords" content="Devansh Mishra, Data Analyst, Machine Learning, Portfolio, Python, SQL, Power BI, B.Tech CSE">
+    <meta name="author" content="Devansh Mishra">
+    <meta name="theme-color" content="#00b4d8">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Devansh Mishra | Data Analyst & ML Enthusiast">
+    <meta property="og:description" content="Final-year B.Tech CSE student turning raw data into actionable insights with Python, SQL, and Power BI.">
+    <meta property="og:type" content="website">
+
+    <title>Devansh Mishra | Data Analyst &amp; ML Enthusiast</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ============================== NAVIGATION ============================== -->
+    <header id="navbar" class="navbar" role="banner">
+        <nav class="nav-container" role="navigation" aria-label="Primary Navigation">
+            <a href="#home" class="nav-logo" aria-label="Home — Devansh Mishra">DM</a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+                <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+                <li><a href="#education" class="nav-link" data-section="education">Education</a></li>
+                <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+                <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+                <li><a href="#certifications" class="nav-link" data-section="certifications">Certifications</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ============================== SECTION 1 — HERO ============================== -->
+        <section id="home" class="hero-section" data-animate="fade-up">
+            <div class="hero-bg-particles" aria-hidden="true"></div>
+
+            <div class="hero-content" data-animate="fade-up">
+                <span class="hero-greeting" data-animate="fade-right">Hello, I'm</span>
+                <h1 class="hero-name" data-animate="fade-up">Devansh Mishra</h1>
+                <p class="hero-designations" data-animate="fade-up">Data Analyst | Machine Learning Enthusiast | B.Tech CSE Student</p>
+                <p class="hero-intro" data-animate="fade-up">I'm a final-year Computer Science student and data analyst who turns raw, messy data into decisions people can act on. My work spans building machine learning models for sales forecasting, engineering natural-language-to-SQL systems, and designing interactive Power BI dashboards that surface customer behavior patterns. I'm comfortable across the full data stack — Python, SQL, PySpark, and tools like Databricks and Jupyter — with a strong grounding in statistical evaluation and clean, reproducible analysis. My current focus is deepening my machine learning and analytics engineering skills while shipping practical, end-to-end projects. I care about clarity: models and dashboards that people who aren't technical can still trust and use. Let's talk about how data-driven thinking can solve your next problem.</p>
+
+                <div class="hero-cta-group" data-animate="fade-up">
+                    <a href="#about" class="btn btn-primary">
+                        <span>Learn More About Me</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <span>Get In Touch</span>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </a>
+                </div>
+
+                <div class="hero-social" data-animate="fade-up">
+                    <a href="https://github.com/iamdevanshmishra" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub Profile">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/imdevanshmishra" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Profile">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:mishradevansh749@gmail.com" class="social-icon" aria-label="Send Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="scroll-indicator" aria-hidden="true">
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+                <span>Scroll Down</span>
+            </div>
+        </section>
+
+        <!-- ============================== SECTION 2 — ABOUT ============================== -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header" data-animate="fade-up">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="about-grid">
+                    <!-- Left Column — Profile Image -->
+                    <div class="about-image-wrapper" data-animate="fade-right">
+                        <div class="about-image-container">
+                            <img src="assets/profile.jpg" alt="Devansh Mishra" class="about-image" loading="lazy">
+                            <div class="about-image-border" aria-hidden="true"></div>
+                            <div class="about-image-dots" aria-hidden="true"></div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column — About Text -->
+                    <div class="about-text-wrapper" data-animate="fade-left">
+                        <h3 class="about-subtitle">A Data-Driven Problem Solver</h3>
+                        <p class="about-text">I'm Devansh Mishra, a Computer Science and Engineering student at IES IPS Academy, Indore, graduating in 2026 with a CGPA of 8.04. My interest in data took shape through hands-on work as a project-based data analyst, where I built a Random Forest model for retail sales forecasting and validated it using MAE and RMSE. Since then, I've expanded into full-stack data projects — from a Text-to-SQL system powered by LLMs and Flask, to an end-to-end customer analytics pipeline combining Python, SQL, and Power BI. I work fluently across Python's data ecosystem (Pandas, NumPy, Scikit-learn, TensorFlow/Keras) and relational databases like MySQL, PostgreSQL, and SQLite. What sets me apart is combining strong technical execution with clear communication — I don't just build models, I turn them into insights non-technical stakeholders can act on. I'm looking for opportunities to apply this at scale as I move from academic projects into a full-time data or ML role.</p>
+                    </div>
+                </div>
+
+                <!-- Mission & Vision Flip Cards -->
+                <div class="flip-cards-row" data-animate="fade-up">
+                    <div class="flip-card" data-animate="zoom-in">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="flip-card-icon">
+                                    <i class="fa-solid fa-bullseye"></i>
+                                </div>
+                                <h4>Mission</h4>
+                            </div>
+                            <div class="flip-card-back">
+                                <p>To transform complex, messy data into clear, actionable insights that drive confident, data-informed decisions.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card" data-animate="zoom-in">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="flip-card-icon">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                                <h4>Vision</h4>
+                            </div>
+                            <div class="flip-card-back">
+                                <p>To grow into a data scientist who builds intelligent, scalable systems that make advanced analytics accessible to everyone, not just technical teams.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- View My Work Buttons -->
+                <div class="about-cta-row" data-animate="fade-up">
+                    <a href="#experience" class="btn btn-small">Work Experience</a>
+                    <a href="#education" class="btn btn-small">Education</a>
+                    <a href="#projects" class="btn btn-small">Projects</a>
+                    <a href="#skills" class="btn btn-small">Skills</a>
+                    <a href="#certifications" class="btn btn-small">Certifications</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================== SECTION 3 — EXPERIENCE ============================== -->
+        <section id="experience" class="section experience-section">
+            <div class="container">
+                <div class="section-header" data-animate="fade-up">
+                    <h2 class="section-title">Work Experience</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="experience-card" data-animate="left">
+                    <div class="experience-card-left">
+                        <div class="experience-company-icon">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <h3 class="experience-role">Data Analyst</h3>
+                        <span class="experience-badge">Project-Based</span>
+                    </div>
+
+                    <div class="experience-card-right">
+                        <div class="experience-card-header">
+                            <h4 class="experience-project-title">Retail Sales Forecasting</h4>
+                            <div class="experience-meta">
+                                <span class="experience-location">
+                                    <i class="fa-solid fa-location-dot"></i> Indore, India
+                                </span>
+                                <span class="experience-type-badge">Project-Based</span>
+                            </div>
+                        </div>
+
+                        <div class="experience-details">
+                            <div class="experience-responsibilities">
+                                <h5><i class="fa-solid fa-list-check"></i> Key Responsibilities</h5>
+                                <ul>
+                                    <li>Cleaned, preprocessed, and explored retail transaction data using Python (Pandas, NumPy) and SQL to identify patterns, seasonality, and trends.</li>
+                                    <li>Built and trained a Random Forest regression model for sales forecasting, fine-tuning hyperparameters to optimize prediction accuracy.</li>
+                                    <li>Validated model performance using MAE, RMSE, and R² metrics, documenting reproducible results in Jupyter Notebooks.</li>
+                                    <li>Visualized forecast outputs and key insights using Matplotlib and Seaborn to support data-driven business decisions.</li>
+                                </ul>
+                            </div>
+
+                            <div class="experience-achievements">
+                                <h5><i class="fa-solid fa-trophy"></i> Key Achievements</h5>
+                                <ul>
+                                    <li>Achieved strong predictive performance with a well-tuned Random Forest model, validated through robust statistical evaluation (MAE, RMSE, R²).</li>
+                                    <li>Delivered a fully documented, end-to-end forecasting pipeline from raw data to visual insights — ready for portfolio demonstration and stakeholder review.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================== SECTION 4 — EDUCATION ============================== -->
+        <section id="education" class="section education-section">
+            <div class="container">
+                <div class="section-header" data-animate="fade-up">
+                    <h2 class="section-title">Education</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="education-card" data-animate="fade-up">
+                    <svg class="education-card-border" aria-hidden="true">
+                        <rect rx="16" ry="16" width="100%" height="100%" fill="none" stroke="url(#borderGradient)" stroke-width="2" pathLength="1"/>
+                        <defs>
+                            <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#00b4d8"/>
+                                <stop offset="100%" stop-color="#e6c744"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+
+                    <div class="education-card-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+
+                    <div class="education-card-content">
+                        <h3 class="education-degree">Bachelor of Technology (B.Tech)</h3>
+                        <h4 class="education-field">Computer Science and Engineering</h4>
+                        <p class="education-institution">
+                            <i class="fa-solid fa-building-columns"></i> IES IPS Academy, Indore
+                        </p>
+                        <p class="education-duration">
+                            <i class="fa-solid fa-calendar-days"></i> 2022 – 2026 | Full-time
+                        </p>
+                        <p class="education-cgpa">
+                            <i class="fa-solid fa-star"></i> CGPA: 8.04
+                        </p>
+
+                        <div class="education-highlights">
+                            <h5>Key Highlights</h5>
+                            <ul>
+                                <li>Focused on data science, machine learning, and software engineering coursework alongside core CS fundamentals.</li>
+                                <li>Built multiple end-to-end projects spanning data analytics, ML model development, and full-stack data pipelines.</li>
+                                <li>Earned certifications in Python (Cisco) and Advanced SQL (HackerRank), reinforcing practical, industry-relevant skills.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================== SECTION 5 — PROJECTS ============================== -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <div class="section-header" data-animate="fade-up">
+                    <h2 class="section-title">Projects</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <!-- Project 1 -->
+                <div class="project-card" data-animate="left">
+                    <div class="project-card-left">
+                        <span class="project-number">01</span>
+                        <span class="project-type">AI / Data Engineering</span>
+                    </div>
+
+                    <div class="project-card-right">
+                        <h3 class="project-title">Text-to-SQL using LLM</h3>
+                        <p class="project-description">Developed a web-based system that converts natural language questions into SQL queries using a Large Language Model (LLM). Built with Python and Flask as the backend, the application enables non-technical users to query databases using plain English. The system dynamically generates and executes SQL on a SQLite database, returning accurate results in real time — bridging the gap between natural language understanding and structured data retrieval.</p>
+
+                        <div class="project-outcomes">
+                            <div class="outcome-box" data-animate="fade-up">
+                                <span class="outcome-number">01</span>
+                                <p>Enabled natural language querying of databases, removing the need for SQL knowledge.</p>
+                            </div>
+                            <div class="outcome-box" data-animate="fade-up">
+                                <span class="outcome-number">02</span>
+                                <p>Integrated LLM-powered SQL generation with real-time query execution on SQLite.</p>
+                            </div>
+                            <div class="outcome-box" data-animate="fade-up">
+                                <span class="outcome-number">03</span>
+                                <p>Built an intuitive Flask-based web interface for seamless user interaction.</p>
+                            </div>
+                            <div class="outcome-box" data-animate="fade-up">
+                                <span class="outcome-number">04</span>
+                                <p>Demonstrated end-to-end AI-to-data pipeline from input parsing to result display.</p>
+                            </div>
+                        </div>
+
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">LLM</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">SQLite</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-animate="right">
+                    <div class="project-card-left">
+                        <span class="project-number">02</span>
+                        <span class="project-type">Data Analytics</span>
+                    </div>
+
+                    <div class="project-card-right">
+                        <h3 class="project-title">Customer Trends &amp; Behavior Analysis</h3>
+                        <p class="project-description">Built an end-to-end data analytics pipeline to explore and visualize customer purchasing behavior. The project involved data cleaning, transformation, and exploratory data analysis using Python (Pandas, Matplotlib, Seaborn), SQL-based querying for structured insights, and an interactive Power BI dashboard for stakeholder-ready reporting. Key focus areas included customer segmentation, purchase frequency analysis, and revenue trend tracking — turning raw transactional data into clear, actionable business intelligence.</p>
+
+                        <div class="project-outcomes">
+                            <div class="outcome-box" data-animate="fade-up">
+                                <span class="outcome-number">01</span>
+                                <p>Performed in-depth EDA revealing customer segments and seasonal purchase patterns.</p>
+                            </div>
+                            <div class="outcome-box" data-animate="fade-up">
+                                <span class="outcome-number">02</span>
+                                <p>Designed SQL queries for structured analysis of revenue, retention, and frequency.</p>
+                            </div>
+                            <div class="outcome-box" data-animate="fade-up">
+                                <span class="outcome-number">03</span>
+                                <p>Built an interactive Power BI dashboard for non-technical stakeholder consumption.</p>
+                            </div>
+                            <div class="outcome-box" data-animate="fade-up">
+                                <span class="outcome-number">04</span>
+                                <p>Delivered a reproducible, end-to-end pipeline from raw data to visual business insights.</p>
+                            </div>
+                        </div>
+
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">Power BI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================== SECTION 6 — SKILLS ============================== -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <div class="section-header" data-animate="fade-up">
+                    <h2 class="section-title">Skills</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="skills-grid">
+
+                    <!-- Programming -->
+                    <div class="skill-category-card" data-animate="fade-up">
+                        <div class="skill-category-header">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Programming</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percent="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">SQL</span>
+                                    <span class="skill-percent">88%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percent="88"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Data Processing & Big Data -->
+                    <div class="skill-category-card" data-animate="fade-up">
+                        <div class="skill-category-header">
+                            <i class="fa-solid fa-database"></i>
+                            <h3>Data Processing &amp; Big Data</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">PySpark</span>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percent="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Platforms -->
+                    <div class="skill-category-card" data-animate="fade-up">
+                        <div class="skill-category-header">
+                            <i class="fa-solid fa-toolbox"></i>
+                            <h3>Tools &amp; Platforms</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Databricks</span>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percent="75"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Git &amp; GitHub</span>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percent="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Power BI</span>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percent="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Jupyter Notebook</span>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percent="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">VS Code</span>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percent="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">MS Excel</span>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percent="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Databases -->
+                    <div class="skill-category-card" data-animate="fade-up">
+                        <div class="skill-category-header">
+                            <i class="fa-solid fa-server"></i>
+                            <h3>Databases</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">MySQL</span>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percent="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">PostgreSQL</span>
+                                    <span class="skill-percent">78%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percent="78"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">SQLite</span>
+                                    <span class="skill-percent">82%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percent="82"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Libraries -->
+                    <div class="skill-category-card skill-category-card-wide" data-animate="fade-up">
+                        <div class="skill-category-header">
+                            <i class="fa-solid fa-cubes"></i>
+                            <h3>Libraries</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">NumPy</span>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percent="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Pandas</span>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percent="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Matplotlib</span>
+                                    <span class="skill-percent">82%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percent="82"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Seaborn</span>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percent="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">OpenCV</span>
+                                    <span class="skill-percent">70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percent="70"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Scikit-learn</span>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percent="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">TensorFlow / Keras</span>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percent="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================== SECTION 7 — CERTIFICATIONS ============================== -->
+        <section id="certifications" class="section certifications-section">
+            <div class="container">
+                <div class="section-header" data-animate="fade-up">
+                    <h2 class="section-title">Certifications</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="certifications-grid">
+                    <!-- Cert 1 -->
+                    <div class="cert-card" data-animate="fade-up">
+                        <div class="cert-card-image">
+                            <img src="cert/Python_Essentials_1 _Certificate.jpg" alt="Python Essentials 1 Certificate" loading="lazy">
+                            <div class="cert-card-overlay">
+                                <i class="fa-solid fa-expand"></i>
+                            </div>
+                        </div>
+                        <div class="cert-card-content">
+                            <h3 class="cert-title">Python Essentials 1</h3>
+                            <p class="cert-issuer">
+                                <i class="fa-solid fa-building"></i> Cisco Networking Academy
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Cert 2 -->
+                    <div class="cert-card" data-animate="fade-up">
+                        <div class="cert-card-image">
+                            <img src="cert/hackerrank_sql_advanced_certificate.jpg" alt="SQL Advanced Certificate" loading="lazy">
+                            <div class="cert-card-overlay">
+                                <i class="fa-solid fa-expand"></i>
+                            </div>
+                        </div>
+                        <div class="cert-card-content">
+                            <h3 class="cert-title">SQL (Advanced)</h3>
+                            <p class="cert-issuer">
+                                <i class="fa-solid fa-building"></i> HackerRank
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Cert 3 -->
+                    <div class="cert-card" data-animate="fade-up">
+                        <div class="cert-card-image">
+                            <img src="cert/TCS_iON _Certificate.jpg" alt="TCS iON Career Edge Certificate" loading="lazy">
+                            <div class="cert-card-overlay">
+                                <i class="fa-solid fa-expand"></i>
+                            </div>
+                        </div>
+                        <div class="cert-card-content">
+                            <h3 class="cert-title">TCS iON Career Edge – Young Professional</h3>
+                            <p class="cert-issuer">
+                                <i class="fa-solid fa-building"></i> TCS iON
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================== SECTION 8 — CONTACT ============================== -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="section-header" data-animate="fade-up">
+                    <h2 class="section-title">Let's Build Something Data-Driven Together</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Left — Contact Form -->
+                    <div class="contact-form-card" data-animate="fade-right">
+                        <h3>Send Me a Message</h3>
+                        <form action="mailto:mishradevansh749@gmail.com" method="POST" enctype="text/plain" class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="fullName" name="fullName" required autocomplete="name">
+                                <label for="fullName">Full Name</label>
+                                <span class="form-highlight"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="emailAddress" name="emailAddress" required autocomplete="email">
+                                <label for="emailAddress">Email Address</label>
+                                <span class="form-highlight"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" required>
+                                <label for="subject">Subject</label>
+                                <span class="form-highlight"></span>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                                <label for="message">Message</label>
+                                <span class="form-highlight"></span>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-shimmer">
+                                <span>Send Message</span>
+                                <i class="fa-solid fa-paper-plane"></i>
+                                <div class="shimmer-effect" aria-hidden="true"></div>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Right — Contact Info Panel -->
+                    <div class="contact-info-panel" data-animate="fade-left">
+                        <h3>Contact Information</h3>
+
+                        <div class="contact-info-items">
+                            <div class="contact-info-item">
+                                <div class="contact-info-icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="contact-info-text">
+                                    <span class="contact-info-label">Email</span>
+                                    <a href="mailto:mishradevansh749@gmail.com">mishradevansh749@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-item">
+                                <div class="contact-info-icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="contact-info-text">
+                                    <span class="contact-info-label">Phone</span>
+                                    <a href="tel:+918962596922">+91 8962596922</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-item">
+                                <div class="contact-info-icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="contact-info-text">
+                                    <span class="contact-info-label">Location</span>
+                                    <span>Indore, India</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-social">
+                            <a href="https://www.linkedin.com/in/imdevanshmishra" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/iamdevanshmishra" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================== FOOTER ============================== -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <h3 class="footer-name">Devansh Mishra</h3>
+                <p class="footer-tagline">Turning data into decisions.</p>
+
+                <div class="footer-social">
+                    <a href="https://github.com/iamdevanshmishra" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/imdevanshmishra" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:mishradevansh749@gmail.com" class="social-icon" aria-label="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">&copy; 2026 Devansh Mishra. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
